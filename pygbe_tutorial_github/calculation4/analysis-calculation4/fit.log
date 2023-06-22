@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Fri May  5 15:54:15 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+0.21315850749966778)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a/x)*exp(-c*x) + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.0824380751e+01   0.00e+00  1.30e+00    1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.1734576592e-08  -3.29e-04  1.30e-07   -1.084987e-01   2.126957e-04   2.486125e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.17346e-08
+rel. change during last iteration : -3.29294e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.65982e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.86729e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.108499        +/- 0.0001085    (0.09998%)
+b               = 0.000212696      +/- 7.188e-05    (33.79%)
+c               = 2.48612          +/- 0.005522     (0.2221%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b               0.690  1.000 
+c              -0.961 -0.814  1.000 

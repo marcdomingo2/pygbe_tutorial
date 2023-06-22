@@ -1,0 +1,32 @@
+set encoding iso_8859_1
+
+#set terminal postscript eps enhanced color font "Arial, 16"
+
+set terminal postscript eps enhanced color "Helvetica, 24"
+
+# The file we'll write to
+set output 'free-energy-salt-corrected.eps'
+set size ratio 0.5
+set xtics scale 2
+set ytics scale 2
+set mxtics 2
+set mytics 2
+f(x)=(a/x)*exp(-c*x) + b
+
+fit f(x) 'solvation.dat' using 1:($2+0.21315850749966778) via a, b, c
+#fit f(x) 'solvation.dat' using 1:($2+0.23685972983788411) via a, b, c
+g(x)= (0.10095/x)*exp(-2.5*x)
+set xrange [0.15:1.6]
+set key top right
+
+set xlabel "Distance d (nm)" font ",24" 
+set ylabel "Free energy (kcal/mol)" font ",24" # offset -1,0
+
+
+plot 'solvation.dat' using ($1):($2+0.21315850749966778) title 'Free energy' pt 7 ps 2, f(x) lw 6 t sprintf("f(d)=(%.3f/d)*exp(-d*%.3f) + %.3f", a, c, b), g(x) lt 0 lw 6 t sprintf("g(d)=(0.10095/d)*exp(-2.50*d)")
+#plot 'solvation.dat' using ($1):($2+0.23685972983788411) title 'Free energy' pt 7 ps 2, f(x) lw 6 t sprintf("f(d)=(%.3f/d)*exp(-d*%.3f) + %.3f", a, c, b), g(x) lt 0 lw 6 t sprintf("g(d)=(0.10095/d)*exp(-2.50*d)")
+
+
+#set terminal
+#set terminal x11
+#replot

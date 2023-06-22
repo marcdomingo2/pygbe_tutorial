@@ -1,0 +1,460 @@
+
+
+*******************************************************************************
+Fri Mar 31 16:05:59 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+0.21315850749966778)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-c*x) + b + (d/x)*exp(-h*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d             h            
+   0 3.8991239108e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  26 1.4239517761e-06  -9.31e-01  1.05e-04    5.462776e-01  -6.017663e-03   1.140441e+00   1.076330e-01   1.242643e+00
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 1.42395e-06
+rel. change during last iteration : -9.3146e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.546278       
+b               = -0.00601766    
+c               = 1.14044        
+d               = 0.107633       
+h               = 1.24264        
+
+
+*******************************************************************************
+Fri Mar 31 16:07:34 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+0.21315850749966778)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-c*x) + b + (d/x)*exp(-c*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.8991239108e+01   0.00e+00  1.20e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   7 1.4237702805e-06  -2.15e-05  1.20e-07    5.351784e-01  -6.027595e-03   1.139393e+00   1.076326e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.42377e-06
+rel. change during last iteration : -2.15342e-10
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00119322
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.42377e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.535178         +/- 0.01786      (3.337%)
+b               = -0.00602759      +/- 0.01049      (174%)
+c               = 1.13939          +/- 0.07574      (6.647%)
+d               = 0.107633         +/- 0.002862     (2.659%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      
+a               1.000 
+b               0.862  1.000 
+c               0.938  0.983  1.000 
+d              -0.990 -0.885 -0.947  1.000 
+
+
+*******************************************************************************
+Fri Mar 31 17:42:56 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+0.21315850749966778)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-c*x) + b + (d/x)*exp(-h*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d             h            
+   0 3.8991239108e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  26 1.4239517761e-06  -9.31e-01  1.05e-04    5.462776e-01  -6.017663e-03   1.140441e+00   1.076330e-01   1.242643e+00
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 1.42395e-06
+rel. change during last iteration : -9.3146e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.546278       
+b               = -0.00601766    
+c               = 1.14044        
+d               = 0.107633       
+h               = 1.24264        
+
+
+*******************************************************************************
+Fri Mar 31 17:44:16 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+0.21315850749966778)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-c*x) + b + (d/x)*exp(-h*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d             h            
+   0 3.8991239108e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  26 1.4239517761e-06  -9.31e-01  1.05e-04    5.462776e-01  -6.017663e-03   1.140441e+00   1.076330e-01   1.242643e+00
+
+After 26 iterations the fit converged.
+final sum of squares of residuals : 1.42395e-06
+rel. change during last iteration : -9.3146e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.546278       
+b               = -0.00601766    
+c               = 1.14044        
+d               = 0.107633       
+h               = 1.24264        
+
+
+*******************************************************************************
+Mon Apr  3 10:00:28 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:02:51 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:03:00 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:03:54 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:04:05 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:04:24 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:05:03 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:10:25 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    
+
+
+*******************************************************************************
+Mon Apr  3 10:34:16 2023
+
+
+FIT:    data read from 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=(a)*exp(-b*x)+(c/x)*exp(-h*x)+ j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             h             j            
+   0 3.0406534863e+01   0.00e+00  1.05e+00    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   5 1.4195378368e-06  -4.94e-01  1.05e-05    1.226554e+00   1.200910e+00   1.076439e-01   1.188694e+00  -5.747173e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.41954e-06
+rel. change during last iteration : -4.94357e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 1.22655        
+b               = 1.20091        
+c               = 0.107644       
+h               = 1.18869        
+j               = -0.00574717    

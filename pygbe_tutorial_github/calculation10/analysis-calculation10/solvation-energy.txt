@@ -1,0 +1,36 @@
+set encoding iso_8859_1
+
+#set terminal postscript eps enhanced color font "Arial, 16"
+
+set terminal postscript eps enhanced color "Helvetica, 20"
+
+# The file we'll write to
+set output 'free-energy-more-negative.eps'
+set size ratio 0.5
+set xtics scale 2
+set ytics scale 2
+set mxtics 2
+set mytics 2
+f(x)=(a/x)*exp(-b*x) + c*exp(-h*x) + j
+
+fit f(x) 'solvation.dat' using 1:($2+$3+0.21315850749966778-18.76467750252752) via a, b, c, h, j
+
+g(x)= (0.10/x)*exp(-2.5*x) - 1.3*exp(-1.25*x)
+##p(x)= (0.101/x)*exp(-1.25*x) + 1.25*exp(-1.25*x)
+
+
+set xrange [0.1:1.6]
+
+set key bottom right
+
+set key font ",12"
+#unset key
+set xlabel "Distance d (nm)" font ",24" 
+set ylabel "Free energy (kcal/mol)" font ",24" # offset -1,0
+
+plot 'solvation.dat' using ($1):($2+$3+0.21315850749966778-18.76467750252752) title 'Free energy' pt 7 ps 2, f(x) lw 6 t sprintf("f(d)=%.2f/d *exp(-%.2f*d) + %.2f *exp(-%.2f*d) + %.2f", a, b, c, h, j), g(x) lt 0 lw 6 t sprintf("g(d)=0.1/d*exp(-2.5*d)-1.3*exp(-1.25*d)"), 'solvation.dat' using ($1):($2+0.21315850749966778) title 'E-solv' pt 7 ps 2, 'solvation.dat' using ($1):($3-18.76467750252752) title 'E-surf' pt 7 ps 2
+
+
+#set terminal
+#set terminal x11
+#replot
